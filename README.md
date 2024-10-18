@@ -1,7 +1,7 @@
 ## 环境安装
-### pyhton 3.9.6
-### pyspark 3.5.3
-### airflow 2.10.2
+-  pyhton 3.9.6
+- pyspark 3.5.3
+- airflow 2.10.2
 
 
 ## 数据下载
@@ -11,7 +11,8 @@
 #### 将drags文件夹中的文件下载下来放置到安装好的airflow文件夹下的/airflow/dags文件中。然后即可运行下列两行代码启动本地airflow服务：
 - airflow webserver --port 8080
 - airflow scheduler
-#### 启动本地服务： http://localhost:8080/home,即可看到对应的drags：
+#### 启动本地服务： http://localhost:8080/home
+#### 即可看到对应的drags：
 ![alt text](image-2.png)
 #### 可以点击进入到相应的drags看到具体的drag执行情况，并且可以看到对应的输出logs：
 ![alt text](image-3.png)

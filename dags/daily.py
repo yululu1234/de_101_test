@@ -68,4 +68,4 @@ def return_daily_drives_and_failed_drives(input_folder, column_name, filter_valu
     spark.stop()
 
 # 函数调用示例
-return_daily_drives_and_failed_drives("/Users/lulu.yu/Downloads/DATA_ENGINEERING_102", "failure", 1)
+# return_daily_drives_and_failed_drives("/Users/lulu.yu/Downloads/DATA_ENGINEERING_102", "failure", 1)
